@@ -18,33 +18,9 @@
             bindings = <&kp ESC>;
         };
 
-        LSHIFT+LCTRL {
-            bindings = <&kp LS(LCTRL)>;
-            key-positions = <16 15>;
-            layers = <0>;
-        };
-
-        RSHIFT+RCTRL {
-            bindings = <&kp RS(RCTRL)>;
-            key-positions = <19 20>;
-            layers = <0>;
-        };
-
         CARS_COMBO {
             bindings = <&kp CAPS>;
             key-positions = <16 19>;
-            layers = <0>;
-        };
-
-        LSHIFT+LALT {
-            bindings = <&kp LS(LALT)>;
-            key-positions = <16 14>;
-            layers = <0>;
-        };
-
-        RSHIFT+RALT {
-            bindings = <&kp RS(RALT)>;
-            key-positions = <19 21>;
             layers = <0>;
         };
     };
