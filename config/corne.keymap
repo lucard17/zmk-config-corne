@@ -33,6 +33,16 @@
             bindings = <&kp RS(RCTRL)>;
             key-positions = <19 20>;
         };
+
+        rshift_ralt {
+            bindings = <&kp RS(RALT)>;
+            key-positions = <16 14>;
+        };
+
+        lshift_lalt {
+            bindings = <&kp LA(LSHFT)>;
+            key-positions = <19 21>;
+        };
     };
 
     behaviors {
