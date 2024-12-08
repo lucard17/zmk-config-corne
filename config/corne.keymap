@@ -23,6 +23,16 @@
             key-positions = <16 19>;
             layers = <0>;
         };
+
+        lshift_lctrl {
+            bindings = <&kp LC(LEFT_SHIFT)>;
+            key-positions = <16 15>;
+        };
+
+        rshift_rctrl {
+            bindings = <&kp RS(RCTRL)>;
+            key-positions = <19 20>;
+        };
     };
 
     behaviors {
