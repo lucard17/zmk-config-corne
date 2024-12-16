@@ -131,10 +131,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TILDE  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPERSAND      &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSPACE
-&kp F11    &kp F1           &kp F2       &kp F3    &kp F4      &kp F5         &kp MINUS  &hrm RSHIFT EQUAL  &kp LBKT      &kp RBKT              &kp BSLH               &kp DELETE
-&kp F12    &kp F6           &kp F7       &kp F8    &kp F9      &kp F10        &kp UNDER  &kp PLUS           &kp LBRC      &kp RBRC              &kp PIPE               &trans
-                                         &trans    &trans      &trans         &trans     &trans             &trans
+&kp TILDE  &kp EXCLAMATION  &kp AT_SIGN        &kp HASH       &kp DOLLAR     &kp PERCENT    &kp CARET  &kp AMPERSAND      &kp ASTERISK             &kp LEFT_PARENTHESIS          &kp RIGHT_PARENTHESIS  &kp BACKSPACE
+&kp F11    &kp F1           &alts_hrm LALT F2  &hrm LCTRL F3  &hrm LSHFT F4  &kp F5         &kp MINUS  &hrm RSHIFT EQUAL  &hrm LCTRL LEFT_BRACKET  &alts_hrm RALT RIGHT_BRACKET  &kp BSLH               &kp DELETE
+&kp F12    &kp F6           &kp F7             &kp F8         &kp F9         &kp F10        &kp UNDER  &kp PLUS           &kp LBRC                 &kp RBRC                      &kp PIPE               &trans
+                                               &trans         &trans         &trans         &trans     &trans             &trans
             >;
         };
 
